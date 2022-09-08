@@ -5,6 +5,7 @@
   padding-right: 60px;
   display: flex;
   flex-direction: column;
+  background-color: #e7ecf2;
 }
 
 .description {
@@ -13,49 +14,62 @@
 
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
+}
+.avatar__span {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 .avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  padding: 5px;
-  margin-bottom: 10px;
+  width: 102%;
+  height: 102%;
+  object-fit: fill;
 }
 
 .name {
   font-size: 24px;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
 }
 
 .tag {
   font-size: 18px;
   color: grey;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
 }
 .location {
   font-size: 18px;
   color: grey;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 .stats {
   list-style-type: none;
-  padding: 5px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+
+  margin: 0 0 10px 0;
+  background-color: #f3f6f9;
 }
 .stat_item {
   width: 33%;
   text-align: center;
+  padding: 5px;
   border: 1px solid;
-  border-color: aqua;
-  background-color: aquamarine;
+  border-color: #eaeef3;
 }
 
 .label {
   display: block;
+  font-size: 10px;
+  margin-bottom: 5px;
+  color: grey;
 }
 
 .quantity {
   display: block;
+  font-size: 12px;
+  font-weight: 600;
 }
