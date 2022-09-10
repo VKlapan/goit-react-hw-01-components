@@ -15,5 +15,7 @@ export const RowHead = styled.tr`
 
 export const TitleTable = styled.th`
   width: ${props => props.theme.space[8]}px;
-  padding: ${props => props.theme.space[5]}px;
+  padding-left: ${props => props.theme.space[5]}px;
+  padding-top: ${props => props.theme.space[3]}px;
+  padding-bottom: ${props => props.theme.space[3]}px;
 `;
