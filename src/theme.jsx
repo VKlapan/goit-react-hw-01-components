@@ -4,6 +4,8 @@ export const theme = {
     secondaryText: '#4F565C',
     primaryBackGround: '#e7ecf',
     secondaryBackGround: '#f3f6f9',
+    primaryTable: '#00BCD5',
+    secondaryTable: '#ECF1F4',
   },
 
   fontSizes: {
@@ -17,5 +19,5 @@ export const theme = {
     bold: '600',
   },
 
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512],
 };
