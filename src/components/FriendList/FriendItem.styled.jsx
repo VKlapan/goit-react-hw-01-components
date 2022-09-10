@@ -18,7 +18,7 @@ export const Status = styled.span`
   height: 10px;
   margin-right: ${props => props.theme.space[2]}px;
   border-radius: 50%;
-  background-color: red;
+  background-color: ${props => (props.isOnline ? 'green' : 'red')};
 `;
 
 export const Image = styled.img`
@@ -32,4 +32,5 @@ export const Image = styled.img`
 
 export const Name = styled.p`
   font-size: ${props => props.theme.fontSizes.m};
+  text-align: center;
 `;
