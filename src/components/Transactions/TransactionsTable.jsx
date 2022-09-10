@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { TransactionRow } from './TransactionRow';
 import { Table, Thead, RowHead, TitleTable } from './TransactionsTable.styled';
 
@@ -24,3 +25,13 @@ export const TransactionsTable = ({ transactions }) => (
     </tbody>
   </Table>
 );
+
+TransactionsTable.propTypes = {
+  transactions: PropTypes.arrayOf(
+    PropTypes.shape({
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
+};
